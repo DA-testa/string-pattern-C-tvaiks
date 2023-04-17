@@ -16,8 +16,8 @@ def read_input():
             print('Invalid file name')
             return
     elif input_type[:1] == 'I':
-        pat_data = text_file.readline()
-        text_data = text_file.readline()
+        pat_data = input()
+        text_data = input()
     else:
         print('Invalid input!')
         return
