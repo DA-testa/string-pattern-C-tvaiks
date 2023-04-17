@@ -7,9 +7,9 @@ Q = 256
 def read_input():
     input_type = input()
     if input_type[:1] == 'F':
-        file_name = input()
+        #file_name = input()
         try:
-            with open("tests/"+file_name+"") as text_file:
+            with open("tests/06") as text_file:
                 pat_data = text_file.readline()
                 text_data = text_file.readline()
         except IOError:
